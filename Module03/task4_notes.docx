@@ -1,0 +1,84 @@
+# Task 4: One Query, From Relational Algebra to SQL
+
+### 1. Introduction
+
+The purpose of this task was to demonstrate how an SQL query can be represented using relational algebra. Relational algebra provides a mathematical way of describing database operations, while SQL is used to execute these operations in a relational database.
+
+For this task, I selected a query from the Frachtflow warehouse database that retrieves customers associated with late orders.
+
+### 2. SQL Query
+
+The following SQL query was used:
+
+```sql
+SELECT
+    c.customer_id,
+    c.name
+FROM orders o
+JOIN customer c
+    ON c.customer_id = o.customer_id
+WHERE o.status = 'late';
+```
+
+The query joins the orders and customer tables using the customer_id column. It then filters the records to include only orders with a status of 'late' and returns the customer ID and customer name.
+
+### 3. Relational Algebra Expression
+
+The SQL query can be represented using the following relational algebra expression:
+
+\[
+\pi_{c.customer\_id,\ c.name}
+\left(
+\sigma_{o.status='late'}
+\left(
+orders\ o
+\bowtie_{o.customer\_id=c.customer\_id}
+customer\ c
+\right)
+\right)
+\]
+
+The expression uses three main relational algebra operations:
+
+**Selection (σ):** Selects only the orders where the status is 'late'. This corresponds to the WHERE clause in SQL.
+
+**Projection (π):** Selects the customer_id and name attributes. This corresponds to the SELECT clause in SQL.
+
+**Join (⋈):** Combines the orders and customer tables using the matching customer_id values. This corresponds to the JOIN operation in SQL.
+
+### 4. Comparison Between SQL and Relational Algebra
+
+| Relational algebra | SQL equivalent | Purpose |
+|---|---|---|
+| Selection (σ) | WHERE | Filters rows based on a condition |
+| Projection (π) | SELECT | Selects specific columns |
+| Join (⋈) | JOIN ... ON | Combines related tables |
+
+Both representations describe the same logical database operation.
+
+The SQL query first connects orders with their corresponding customers, filters the records to include late orders, and returns the customer IDs and names.
+
+One important distinction is that SQL may return duplicate customer rows when a customer has multiple late orders, whereas traditional relational algebra uses set semantics and removes duplicates. Adding DISTINCT to the SQL query would make its result match the relational algebra expression exactly under set semantics.
+
+### 5. Verification of the SQL Query
+
+The SQL query was entered into SQLite using the Frachtflow warehouse database.
+
+The query is designed to retrieve customer IDs and names associated with late orders.
+
+To confirm that the SQL matches the relational algebra expression, the following conditions must be checked:
+
+- Only customers associated with late orders are returned.
+- Orders are matched to customers using customer_id.
+- Only the customer_id and name columns are displayed.
+- Duplicate handling is consistent between the two representations.
+
+### 6. Conclusion
+
+This task demonstrated the relationship between relational algebra and SQL.
+
+Relational algebra provides a mathematical representation of database operations, while SQL translates those operations into executable queries.
+
+The selected query demonstrated three important relational algebra operations: selection, projection, and join.
+
+Understanding these operations helps explain how SQL queries retrieve information and how their logical structure can be represented mathematically.

@@ -1,0 +1,60 @@
+# Task 5: Window Functions and Correlated Subquery Comparison
+
+### 1. Introduction
+
+The purpose of this task was to compare three different SQL approaches for calculating the number of late orders per customer in the Frachtflow warehouse database. The approaches included the original GROUP BY query, a correlated subquery, and a window function using COUNT(*) OVER (PARTITION BY ...).
+
+The objective was to determine whether all three queries produced equivalent results and to compare their execution plans and readability.
+
+### 2. Verification of Query Results
+
+I executed all three SQL queries against the warehouse database and used a comparison query to verify their results.
+
+The following results were obtained:
+
+| Query method | Number of customers |
+|---|---:|
+| Original GROUP BY query | 400 |
+| Correlated subquery | 400 |
+| Window function | 400 |
+| **Mismatches** | **0** |
+
+All three queries returned 400 customers with late orders. The comparison also showed zero mismatches, confirming that the queries returned identical customer IDs and corresponding late-order counts.
+
+This demonstrates that the three SQL approaches are logically equivalent for the dataset used.
+
+### 3. Comparison of Execution Plans
+
+**Original GROUP BY query**
+
+The execution plan showed that SQLite scanned the customer table, used the idx_orders_customer index to locate matching orders, and used a temporary B-tree for sorting.
+
+**Correlated subquery**
+
+The execution plan showed that SQLite scanned the customer table and performed indexed lookups to identify and count late orders. The query also used a correlated scalar subquery and a temporary B-tree for sorting.
+
+**Window function**
+
+The execution plan showed that SQLite used an indexed search, internal co-routines, and temporary B-trees for DISTINCT and ORDER BY.
+
+### 4. Readability and Performance Comparison
+
+The original GROUP BY query was the easiest to understand because it directly grouped orders by customer and calculated the total number of late orders.
+
+The correlated subquery was more complex because it used nested queries to calculate the counts and check whether customers had late orders.
+
+The window function provided another method of calculating late orders using PARTITION BY. However, DISTINCT was required to remove repeated customer records.
+
+Based on the execution plans, the original GROUP BY query had the simplest execution structure. Nevertheless, actual execution-time measurements would be required to establish which approach performs best.
+
+### 5. LLM-Generated Query
+
+The original GROUP BY query was provided as the starting report for this task. The correlated subquery and window function were subsequently generated with assistance from ChatGPT.
+
+### 6. Conclusion
+
+The comparison demonstrated that different SQL techniques can produce equivalent results.
+
+All three queries returned 400 customers and zero mismatches in customer IDs and late-order counts.
+
+For this particular reporting requirement, the original GROUP BY approach was the most readable and had the simplest execution plan. The exercise also demonstrated the importance of validating SQL results and examining execution plans rather than assuming that different query structures will perform equally well.
