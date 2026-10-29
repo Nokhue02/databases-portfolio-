@@ -45,11 +45,11 @@
 
 Author: Rachel Nokutenda Machiya
 
-My partner is <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
+My partner is <Tashinga Chiketa>, [portfolio link](https://github.com/tchiketa/iot-portfolio)
 
 In my team for the final project, I also had the following members:
-- <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
-- <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
+- <Tinashe Chigasa>, [portfolio link](https://github.com/tinasheSChigasa/iot-portfolio)
+- <Trevor Muswere>, [portfolio link](https://github.com/tmuswere/iot-portfolio)
 
 Our team final project repository is [here](https://github.com/somewhere/final-iot-project)
 
