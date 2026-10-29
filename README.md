@@ -1,5 +1,5 @@
 # Personal Portfolio for the IoT/MCU class at HSBI Gütersloh Campus
-Author: [Rachel Nokutenda Machiya](https://github.com/Nokhue02/database-portfolio)
+Author: [Rachel Nokutenda Machiya](https://github.com/Nokhue02/databases-portfolio-)
 
 Introduction
 
