@@ -12,7 +12,7 @@ Author: Rachel Nokutenda Machiya
 My partner is <Tashinga Chiketa>, [portfolio link](https://github.com/tchiketa/database-portfolio)
 
 In my team for the final project, I also had the following members:
-- <Trevor Muswere>, [portfolio link](https://github.com/tmuswere/database-portfolio)
+- <Trevor Muswere>, [Trevor Muswere](https://github.com/tmuswere/database-portfolio)
 - <Tinashe Chigasa>, [portfolio link](https://github.com/tinasheSChigasa/database-portfolio)
 
 Our team final project repository is [here](https://github.com/somewhere/final-iot-project)
