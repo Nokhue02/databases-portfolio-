@@ -38,7 +38,7 @@ My partner is <Tashinga Chiketa>, [Tashinga Chiketa](https://github.com/tchiketa
 
 In my team for the final project, I also had the following members:
 - <Trevor Muswere> [Trevor Muswere](https://github.com/tmuswere/database-portfolio)
-- <Tinashe Chigasa> [Tinashe Chigasa](https://github.com/TinasheSChigasa/database-portfolio)
+- <Tinashe Chigasa> [Tinashe Chigasa](https://github.com/TinasheSChigasa/databases-portfolio)
 
 Our team final project is [here](https://github.com/Nokhue02/databases-portfolio-/tree/main/Module01)
 
@@ -52,8 +52,4 @@ My personal profile and expectations, you can find [here](Module01/README.md#tas
   [Reflection 2](Reflections/ref02.md)
 - [Module 3](https://github.com/Nokhue02/databases-portfolio-/tree/main/Module03),
   [Reflection 3](Reflections/ref03.md)
-## Miscellanious
-
-- [Hardware in my/our possession](Hardware/README.md)
-
 
