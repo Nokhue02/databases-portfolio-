@@ -40,5 +40,5 @@ The actual counts and query outputs will be recorded below after executing the q
 ## 4. Integrity defects
 
 The five defect queries, their actual outputs, and their production impacts will be recorded in the accompanying evidence.
-![alt text](<WhatsApp Image 2026-10-19 at 19.19.50.jpeg>)
+
 
