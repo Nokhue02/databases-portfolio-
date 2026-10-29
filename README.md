@@ -6,7 +6,7 @@
 > - If you want to take a class on git and even potentially get certified:
 >   https://education.github.com/experiences/foundations_certificate
 
-Author: Rachel Nokutenda Machiya (https://github.com/Nokhue02/iot-portfolio)
+Author: Rachel Nokutenda Machiya
 
 
 My partner is <Tashinga Chiketa>, [portfolio link](https://github.com/tchiketa/iot-portfolio)
