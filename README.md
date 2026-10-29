@@ -46,12 +46,12 @@ My personal profile and expectations, you can find [here](Module01/README.md#tas
 
 ## Table of Contents
 
-- [Module 1: IoT Introduction](Module01/README.md), 
+- [Module 1: IoT Introduction](Module01), 
   [Reflection 1](Reflections/ref01.md)
-- [Module 2: Hardware and Basic Electronics](Module02/README.md),
-  [Reflection 2](Reflections/ref02.md), [Reflection 3](Reflections/ref03.md)
-- [Module 3](https://github.com/Nokhue02/databases-portfolio-/tree/main/Module03)
-
+- [Module 2: Hardware and Basic Electronics](Module02),
+  [Reflection 2](Reflections/ref02.md)
+- [Module 3](https://github.com/Nokhue02/databases-portfolio-/tree/main/Module03),
+  [Reflection 3](Reflections/ref03.md)
 ## Miscellanious
 
 - [Hardware in my/our possession](Hardware/README.md)
