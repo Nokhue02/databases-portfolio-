@@ -40,7 +40,7 @@ In my team for the final project, I also had the following members:
 - <Trevor Muswere> [Trevor Muswere](https://github.com/tmuswere/database-portfolio)
 - <Tinashe Chigasa> [Tinashe Chigasa](https://github.com/TinasheSChigasa/database-portfolio)
 
-Our team final project is [here](https://github.com/somewhere/final-iot-project)
+Our team final project is [here](https://github.com/Nokhue02/databases-portfolio-/tree/main/Module01)
 
 My personal profile and expectations, you can find [here](Module01/README.md#task-personal-profile).
 
