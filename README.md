@@ -37,10 +37,10 @@ To develop confidence in using technical tools and evaluating AI-generated solut
 My partner is <Tashinga Chiketa>, [Tashinga Chiketa](https://github.com/tchiketa/database-portfolio)
 
 In my team for the final project, I also had the following members:
-- <Trevor Muswere>, [Trevor Muswere](https://github.com/tmuswere/database-portfolio)
-- <Tinashe Chigasa>, [Tinashe Chigasa](https://github.com/TinasheSChigasa/database-portfolio)
+- <Trevor Muswere> [Trevor Muswere](https://github.com/tmuswere/database-portfolio)
+- <Tinashe Chigasa> [Tinashe Chigasa](https://github.com/TinasheSChigasa/database-portfolio)
 
-Our team final project repository is [here](https://github.com/somewhere/final-iot-project)
+Our team final project is [here](https://github.com/somewhere/final-iot-project)
 
 My personal profile and expectations, you can find [here](Module01/README.md#task-personal-profile).
 
