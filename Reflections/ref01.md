@@ -39,3 +39,4 @@ I realised that if I want to succeed in this course, I need to be actively invol
 Rather than remaining passive or depending entirely on others for answers, I want to take more responsibility for my learning.
 
 Moving forward, I have made a commitment to participate more actively, practise independently, and use the challenges I encounter as opportunities to improve my understanding and confidence.
+
